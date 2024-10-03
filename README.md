@@ -160,17 +160,19 @@ This graph illustrates the correlation between the independent variables (X) and
 The original dataset shows an imbalance between the classes of the target variable (diabetes positive and negative).
 - The SMOTE (Synthetic Minority Over-sampling Technique) method is used to balance the dataset. This technique generates new synthetic samples for the minority class (diabetes positive), thereby reducing the impact of the imbalance. 
 
-| Class Distribution Before SMOTE |
-|----------------------------------|
-|    0     |     1     |
-|----------|-----------|
-| 87646    |  8482     |
+#### Class Distribution Before SMOTE
 
-| Class Distribution After SMOTE |
-|--------------------------------|
-|    0     |     1     |
-|----------|-----------|
-| 87646    |  25446    |
+| Class | Count |
+|-------|-------|
+|   0   | 87646 |
+|   1   |  8482 |
+
+#### Class Distribution After SMOTE
+
+| Class | Count |
+|-------|-------|
+|   0   | 87646 |
+|   1   | 25446 |
 
 - Before applying SMOTE, the distribution of classes is checked, and it is ensured that the target variable is of factor type. After applying SMOTE, the new distribution of classes is confirmed to verify that the balancing was effective.
 
