@@ -101,6 +101,7 @@ The bar chart for gender distribution visualizes the number of patients divided 
 #### 3. BMI Distribution Histogram and Density
 
 ![BMI Distribution Histogram and Density](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_BMI_Distribution.png)
+
 This graph combines a histogram and a density curve to show the distribution of BMI. The histogram represents the normalized BMI values, while the overlaid density curve provides an overall view of the distribution. The combination of these two elements allows for better identification of trends and shapes in the distribution of BMI values.
 
 #### 4. Smoking History Distribution
@@ -136,6 +137,7 @@ This bar chart visualizes the relationship between gender and diabetes diagnosis
 ##### 2. Age vs BMI Colored by Diabetes Classification
 
 ![Age vs BMI Colored by Diabetes Classification](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_AgevsBMI.png)
+
 This scatter plot depicts the relationship between age and BMI, with points colored according to diabetes classification (0 for non-diabetic and 1 for diabetic). Each point represents an individual patient, allowing for the identification of patterns or clusters in the data. The transparency (alpha = 0.6) and size of the points enhance visibility, especially in areas of high density. This graph helps to visualize how age and BMI might correlate with diabetes status, providing valuable insights for analysis.
 
 
