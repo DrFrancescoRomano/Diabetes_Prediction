@@ -148,7 +148,13 @@ This phase is crucial to prepare the data for the predictive model.
 
 #### 10. **Correlation Analysis**
 The correlation matrix for numerical variables in the dataset is calculated. 
-- A heatmap is created to visualize the correlations between variables, helping to identify which variables have a significant relationship with the target variable (diabetes). Variables with high correlations are considered more relevant for prediction.
+##### 1. Correlation Matrix Heatmap
+![Correlation Matrix Heatmap](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Corr.png)
+The correlation matrix for the numerical variables in the dataset has been calculated. A heatmap has been created to visualize the correlations between the variables, helping to identify which variables have a significant relationship with the target variable (diabetes). Additionally, a correlation graph between the independent variables (X) and the dependent variable (Y) has been created. Variables with high correlations are considered more relevant for prediction.
+
+##### 2. Correlation Graph Between X and Y
+![Correlation Graph Between X and Y](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Single_Corr.png)
+This graph illustrates the correlation between the independent variables (X) and the dependent variable (Y), providing further insights into their relationships.
 
 ### 11. **Data Balancing**
 The original dataset shows an imbalance between the classes of the target variable (diabetes positive and negative).
