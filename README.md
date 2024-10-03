@@ -90,30 +90,37 @@ In this phase, individual variables are analyzed through the creation of charts 
 
 #### 1. Age Distribution Histogram
 ![Age Distribution Histogram](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Age.png)
+
 The age distribution histogram displays how the ages of patients are distributed within the dataset. The bars, grouped in 5-year intervals, provide a clear representation of the frequency of each age range. This graph helps identify any peaks or anomalies in the age distribution.
 
 #### 2. Gender Distribution
 ![Gender Distribution](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Gender_Distribution.png)
+
 The bar chart for gender distribution visualizes the number of patients divided by gender. The colored bars allow for a quick observation of the sample composition, highlighting any imbalances between genders. This graph is useful for understanding the representation of each gender in the dataset.
 
 #### 3. BMI Distribution Histogram and Density
+
 ![BMI Distribution Histogram and Density]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_BMI_Distribution.png)
 This graph combines a histogram and a density curve to show the distribution of BMI. The histogram represents the normalized BMI values, while the overlaid density curve provides an overall view of the distribution. The combination of these two elements allows for better identification of trends and shapes in the distribution of BMI values.
 
 #### 4. Smoking History Distribution
 ![Smoking History Distribution](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Smoking_History_Distribution.png)
+
 The bar chart for smoking history distribution shows the number of patients categorized by their smoking habits. The use of different colors for each smoking category makes the graph visually appealing and facilitates data interpretation. The rotated labels on the x-axis enhance readability, especially when there are multiple categories.
 
 #### 5. Hypertension Distribution
 ![Hypertension Distribution]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Hypertension_Distribution.png)
+
 The bar chart for hypertension distribution visualizes how many patients have or do not have hypertension. This graph provides useful information about the prevalence of hypertension in the sample, highlighting the proportion of affected patients compared to those who are not affected.
 
 #### 6. Heart Disease Distribution
 ![Heart Disease Distribution]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Heart_Disease_Distribution.png)
+
 The graph for heart disease distribution shows how many patients have a history of heart disease compared to those who do not. This visualization helps understand the incidence of heart disease in the sample, highlighting patients at risk.
 
 #### 7. Diabetes Distribution
 ![Diabetes Distribution](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_Diabetes_Distribution.png)
+
 The bar chart for diabetes distribution represents the number of patients diagnosed with diabetes compared to those not diagnosed. This graph provides a clear view of the prevalence of diabetes in the dataset and offers valuable insights for further analysis.
 
 
@@ -123,9 +130,11 @@ After understanding individual variables, we analyze the interactions between th
 
 ##### 1. Gender vs Diabetes
 ![Gender vs Diabetes]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_GendervsDiabetes.png)
+
 This bar chart visualizes the relationship between gender and diabetes diagnosis. The bars are positioned side by side (dodge) to compare the counts of diabetes cases (0 for non-diabetic and 1 for diabetic) across different genders. The use of blue and orange colors helps differentiate between the two classes. This visualization provides insight into how diabetes prevalence varies between genders in the dataset.
 
 ##### 2. Age vs BMI Colored by Diabetes Classification
+
 ![Age vs BMI Colored by Diabetes Classification]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_AgevsBMI.png)
 This scatter plot depicts the relationship between age and BMI, with points colored according to diabetes classification (0 for non-diabetic and 1 for diabetic). Each point represents an individual patient, allowing for the identification of patterns or clusters in the data. The transparency (alpha = 0.6) and size of the points enhance visibility, especially in areas of high density. This graph helps to visualize how age and BMI might correlate with diabetes status, providing valuable insights for analysis.
 
