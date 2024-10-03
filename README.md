@@ -121,6 +121,15 @@ The bar chart for diabetes distribution represents the number of patients diagno
 After understanding individual variables, we analyze the interactions between them. 
 - Graphs are created to show how the target variable (diabetes) relates to other variables, such as gender and age. This helps identify significant correlations and potential indicators for diabetes prediction.
 
+##### 1. Gender vs Diabetes
+![Gender vs Diabetes]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_GendervsDiabetes.png)
+This bar chart visualizes the relationship between gender and diabetes diagnosis. The bars are positioned side by side (dodge) to compare the counts of diabetes cases (0 for non-diabetic and 1 for diabetic) across different genders. The use of blue and orange colors helps differentiate between the two classes. This visualization provides insight into how diabetes prevalence varies between genders in the dataset.
+
+##### 2. Age vs BMI Colored by Diabetes Classification
+![Age vs BMI Colored by Diabetes Classification]([insert_image_path_here](https://github.com/DrFrancescoRomano/Diabetes_Prediction/blob/main/Plot_Diabetes_Rplot/Rplot_AgevsBMI.png)
+This scatter plot depicts the relationship between age and BMI, with points colored according to diabetes classification (0 for non-diabetic and 1 for diabetic). Each point represents an individual patient, allowing for the identification of patterns or clusters in the data. The transparency (alpha = 0.6) and size of the points enhance visibility, especially in areas of high density. This graph helps to visualize how age and BMI might correlate with diabetes status, providing valuable insights for analysis.
+
+
 #### 9. **Data Preprocessing**
 This phase is crucial to prepare the data for the predictive model.
 - **Recategorization of Smoking History**: the "smoking_history" variable is recategorized into three classes: "non.smoker", "current", and "past.smoker". This is important for simplifying categories and improving data understanding.
