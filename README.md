@@ -1,9 +1,5 @@
 # Diabetes_Prediction
 
-# Diabetes Prediction Project
-
-## Overview
-
 The **Diabetes Prediction Project** aims to develop a machine learning model to predict the likelihood of diabetes in patients based on their medical and demographic data. By leveraging various classification techniques, this project intends to provide valuable insights for healthcare professionals in identifying at-risk individuals and formulating personalized treatment plans.
 
 ## About the Dataset
